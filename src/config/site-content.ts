@@ -20,7 +20,7 @@ export const siteContent = {
       en: "AURANGE TRAVEL",
       zh: "澳朗旅行社",
     },
-    phone: "0439 000 279",
+    phone: "+61 439 000 279",
     email: "2020ray888@gmail.com",
     address:
       "16-18 Parklane Terrace, Sovereign Islands / Paradise Point, QLD 4216, Australia",
