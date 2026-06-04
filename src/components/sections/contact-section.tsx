@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, MapPin, Phone } from "lucide-react";
+import { ArrowRight, Mail, MapPin, Phone } from "lucide-react";
 import { useId, useState } from "react";
 import { Button } from "@/src/components/ui/button";
 import { Card } from "@/src/components/ui/card";
@@ -218,8 +218,14 @@ export function ContactSection({ language, content, company }: ContactSectionPro
                 </p>
               ) : null}
 
-              <Button type="submit" className="mt-6 w-full sm:w-auto">
-                {content.form.submit[langText]}
+              <Button type="submit" magnetic className="group mt-6 w-full cursor-pointer sm:w-auto">
+                <span className="inline-flex items-center gap-2 whitespace-nowrap transition-transform duration-200 motion-reduce:transition-none motion-safe:group-hover:translate-x-0.5">
+                  {content.form.submit[langText]}
+                  <ArrowRight
+                    className="h-4 w-4"
+                    aria-hidden="true"
+                  />
+                </span>
               </Button>
             </form>
           </Card>
