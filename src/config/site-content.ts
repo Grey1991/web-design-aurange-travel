@@ -23,7 +23,7 @@ export const siteContent = {
     phone: "+61 439 000 279",
     email: "2020ray888@gmail.com",
     address:
-      "16-18 Parklane Terrace, Sovereign Islands / Paradise Point, QLD 4216, Australia",
+      "36 Marine Parade, Southport QLD 4215, Australia",
     acn: "166 406 579",
     abn: "79 166 406 579",
     shortDescription: {
