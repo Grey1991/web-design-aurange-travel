@@ -12,7 +12,7 @@ import type { Language } from "@/src/config/site-content";
 
 const serviceIcons: Record<string, LucideIcon> = {
   planning: Map,
-  "local-tours": MapPin,
+  "worldwide-tours": MapPin,
   charter: CarFront,
   airport: PlaneTakeoff,
   group: Bus,

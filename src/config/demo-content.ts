@@ -218,7 +218,7 @@ export const demoContent = {
   // TODO: Placeholder statistics for design purposes only. Replace or remove before production launch.
   trustStats: [
     {
-      value: "200+",
+      value: "10,000+",
       label: {
         en: "Trips Planned",
         zh: "已规划行程",
@@ -232,17 +232,17 @@ export const demoContent = {
       },
     },
     {
-      value: "6+",
+      value: "10+",
       label: {
         en: "Travel Services",
         zh: "旅行服务类型",
       },
     },
     {
-      value: "Queensland",
+      value: "10+ Years",
       label: {
-        en: "Based in Australia",
-        zh: "立足昆士兰",
+        en: "Avg Advisor Experience",
+        zh: "顾问平均经验",
       },
     },
   ] as const satisfies readonly DemoStat[],

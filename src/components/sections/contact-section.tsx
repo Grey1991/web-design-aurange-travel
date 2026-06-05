@@ -124,10 +124,21 @@ export function ContactSection({ language, content, company }: ContactSectionPro
             </Card>
             <Card>
               <p className="text-sm font-semibold text-[var(--color-text-secondary)]">Address</p>
-              <p className="mt-2 inline-flex items-start gap-2 text-base text-[var(--color-text-primary)]">
-                <MapPin className="mt-1 h-4 w-4 shrink-0 text-[var(--color-primary)]" aria-hidden="true" />
-                <span>{company.address}</span>
-              </p>
+              <div className="mt-2 space-y-2 text-base text-[var(--color-text-primary)]">
+                {company.address.split("\n").map((line) => {
+                  const trimmedLine = line.trim();
+                  if (!trimmedLine) {
+                    return null;
+                  }
+
+                  return (
+                    <p key={trimmedLine} className="inline-flex items-start gap-2">
+                      <MapPin className="mt-1 h-4 w-4 shrink-0 text-[var(--color-primary)]" aria-hidden="true" />
+                      <span>{trimmedLine}</span>
+                    </p>
+                  );
+                })}
+              </div>
             </Card>
           </div>
 

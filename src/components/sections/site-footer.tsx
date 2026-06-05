@@ -83,7 +83,7 @@ export function SiteFooter({ language, links, company }: SiteFooterProps) {
                 {company.email}
               </a>
             </li>
-            <li>{company.address}</li>
+            <li className="whitespace-pre-line">{company.address}</li>
           </ul>
         </div>
 

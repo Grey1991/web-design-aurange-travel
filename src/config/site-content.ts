@@ -21,9 +21,9 @@ export const siteContent = {
       zh: "澳朗旅行社",
     },
     phone: "+61 439 000 279",
-    email: "2020ray888@gmail.com",
+    email: "Aurangetravel@hotmail.com",
     address:
-      "36 Marine Parade, Southport QLD 4215, Australia",
+      "36 Marine Parade, Southport QLD 4215, Australia\nLevel 7/9 Help St, Chatswood NSW 2067",
     acn: "166 406 579",
     abn: "79 166 406 579",
     shortDescription: {
@@ -96,17 +96,13 @@ export const siteContent = {
     },
     paragraphs: [
       {
-        en: "AURANGE TRAVEL is a travel services company based in Queensland, Australia.",
-        zh: "澳朗旅行社是一家位于澳大利亚昆士兰州的旅游服务公司。",
+        en: "AURANGE TRAVEL is one of Australia's most highly awarded boutique luxury travel agencies, creating bespoke, end-to-end travel experiences backed by decades of expertise, exclusive industry connections, and a genuine passion for immersive travel. Our adventurous team dedicates countless hours to exploring and researching destinations across the globe, ensuring we bring you exceptional travel packages and unforgettable journeys tailored to your interests.",
+        zh: "澳朗旅行社是澳大利亚屡获殊荣的精品豪华旅行社之一，凭借数十年的专业经验、独特的行业资源以及对沉浸式旅行的真挚热忱，为您打造量身定制的全程无忧旅行体验。我们充满冒险精神的团队投入大量时间探索和调研全球各地的目的地，确保为您提供非凡的旅行套餐和难忘的旅程，一切皆根据您的兴趣量身定制。",
       },
       {
-        en: "We provide flexible and personalised travel solutions for individuals, families, groups and business travellers.",
-        zh: "我们为个人、家庭、团体及商务客户提供灵活、个性化的旅行服务。",
-      },
-      {
-        en: "Whether you are planning a local holiday, a family trip, a business visit or a customised Australian itinerary, we aim to make your journey easier, more comfortable and more enjoyable.",
-        zh: "无论您正在计划本地度假、家庭旅行、商务出行，还是澳洲境内定制行程，我们都希望协助您轻松规划一段舒适、愉快的旅程。",
-      },
+        en: "From selecting the perfect destination to crafting personalized tour packages and itineraries, everything we do is designed around you. Get in touch with our travel specialists today and allow us to create a vacation you'll treasure for years to come.",
+        zh: "从挑选理想的目的地，到量身定制旅游套餐和行程，我们所做的一切都以您为中心。立即联系我们的旅游专家，让我们为您打造一段值得珍藏多年的美好假期。",
+      }
     ],
     image: {
       src: "/images/about-travel.jpg",
@@ -135,11 +131,11 @@ export const siteContent = {
         },
       },
       {
-        key: "local-tours",
-        title: { en: "Local Tours", zh: "本地旅游" },
+        key: "worldwide-tours",
+        title: { en: "Worldwide Tours", zh: "全球旅游" },
         description: {
-          en: "Explore popular destinations across Queensland and surrounding areas.",
-          zh: "探索昆士兰及周边地区的热门景点和特色路线。",
+          en: "Browse popular travel spots across Australia and worldwide.",
+          zh: "探索澳大利亚及世界各地的热门旅游景点。",
         },
       },
       {
@@ -284,10 +280,10 @@ export const siteContent = {
       },
       {
         key: "local-support",
-        title: { en: "Queensland-Based Support", zh: "昆士兰本地支持" },
+        title: { en: "Australian-Based Support", zh: "澳大利亚本地支持" },
         description: {
-          en: "Local travel support based in Queensland, Australia.",
-          zh: "位于澳大利亚昆士兰州，为您提供本地旅行服务。",
+          en: "Local travel support based in Queensland and New South Wales, Australia.",
+          zh: "位于澳大利亚昆士兰州和新南威尔士州，为您提供本地旅行服务。",
         },
       },
       {
